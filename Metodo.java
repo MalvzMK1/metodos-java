@@ -31,7 +31,7 @@ class Metodo {
                 System.out.println("Multiplicacao = " + multip(scan1, scan2));
             }  
             else {
-                System.out.println("DECO DEDECO BIRICUTECO NA BATIDA DO CANECO TA CHEGANDO O TRAMPOLIM");
+                System.out.println("Insira um modo válido");
             }
             System.out.println("\nDeseja continuar? [s/n]");
             char sn = ler.next().charAt(0);
