@@ -31,8 +31,7 @@ class AreaFormas {
                 System.out.print("Valor da base: ");
                 double base = ler.nextDouble();
 
-                double area = triangulo(altura, base);
-                System.out.println("\nA área desse triangulo é: " + area);
+                System.out.println("\nA área desse triangulo é: " + triangulo(altura, base));
 
                 System.out.println("\nDeseja continuar? [s/n]");
                 String sn = ler.next();
@@ -49,8 +48,7 @@ class AreaFormas {
                 System.out.print("Valor da base: ");
                 double base = ler.nextDouble();
 
-                double area = retangulo(altura, base);
-                System.out.println("\nA área desse retangulo é: " + area);
+                System.out.println("\nA área desse retangulo é: " + retangulo(altura, base));
 
                 System.out.println("\nDeseja continuar? [s/n]");
                 String sn = ler.next();
@@ -64,8 +62,7 @@ class AreaFormas {
                 System.out.print("\nValor do raio: ");
                 double raio = ler.nextDouble();
 
-                double area = circulo(raio);
-                System.out.println("\nA área desse circulo é: " + area);
+                System.out.println("\nA área desse circulo é: " + circulo(raio));
 
                 System.out.println("\nDeseja continuar? [s/n]");
                 String sn = ler.next();
