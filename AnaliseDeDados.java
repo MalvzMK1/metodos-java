@@ -8,10 +8,9 @@ public class AnaliseDeDados {
 			dados[i] = Double.parseDouble(args[i]);
 		}
 		
-/*		System.out.println("\nMédia dos dados: " + media(dados));
+		System.out.println("\nMédia dos dados: " + media(dados));
 		System.out.println("Menor numero: " + menor(dados));
 		System.out.println("Maior numero: " + maior(dados));
-*/
 	}
 	
 	public static double inserirDados() {
